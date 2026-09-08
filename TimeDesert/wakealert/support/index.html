@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WakeAlert Support &mdash; TimeDesert</title>
+  <meta name="description" content="Help with WakeAlert — alarm troubleshooting, Apple Watch setup, Health permissions, subscriptions, restoring purchases, and how to reach a human." />
+  <link rel="stylesheet" href="/assets/site.css" />
+</head>
+<body>
+
+  <nav>
+    <a class="logo" href="/">Time<span>Desert</span></a>
+    <div class="nav-links">
+      <a href="/wakealert/">WakeAlert</a>
+      <a href="/wakealert/privacy/">Privacy</a>
+      <a href="/wakealert/terms/">Terms</a>
+    </div>
+  </nav>
+
+  <main class="doc">
+    <div class="doc-head">
+      <h1>WakeAlert Support</h1>
+      <p class="doc-meta">Help, troubleshooting, and how to reach us</p>
+    </div>
+
+    <div class="contact-panel">
+      <div>
+        <h3>Email support</h3>
+        <a href="mailto:support@timedesert.com">support@timedesert.com</a>
+        <p>We aim to reply within 2 business days. A real person reads every message.</p>
+      </div>
+      <div>
+        <h3>Report a bug</h3>
+        <a href="mailto:support@timedesert.com?subject=WakeAlert%20bug%20report">Send a bug report</a>
+        <p>Include your iPhone model, iOS version, whether an Apple Watch was involved, and roughly when it happened.</p>
+      </div>
+    </div>
+
+    <h2>Common questions</h2>
+
+    <div class="faq">
+
+      <details open>
+        <summary>My alarm didn't go off</summary>
+        <div class="answer">
+          <p>Work through these in order &mdash; in almost every case it's one of the first three:</p>
+          <ol>
+            <li><strong>Notifications must be allowed.</strong> Open <em>Settings &rarr; Notifications &rarr; WakeAlert</em> and make sure Allow Notifications is on, along with Sounds and Time-Sensitive Notifications. WakeAlert delivers alarms as time-sensitive alerts so they can break through Focus modes.</li>
+            <li><strong>Check the volume and the silent switch.</strong> Ringer volume is separate from media volume. Turn the ringer up with the side buttons while no audio is playing.</li>
+            <li><strong>Check Focus and Sleep Focus.</strong> If WakeAlert is not allowed to notify you during a Focus, add it to that Focus's allowed apps.</li>
+            <li><strong>Don't force-quit the app.</strong> Swiping WakeAlert out of the app switcher before bed can prevent parts of the alarm from running. Leave it in the background.</li>
+            <li><strong>Keep the phone charged.</strong> Low Power Mode is fine, but a phone that dies overnight can't wake you.</li>
+            <li><strong>Confirm the alarm is enabled</strong> and set for the right days &mdash; a repeat alarm set for weekdays will stay quiet on Saturday.</li>
+          </ol>
+          <p>If you've checked all of that and it still failed, please email us with the date and time it should have fired. That detail makes it much easier to track down.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Setting up the Apple Watch app</summary>
+        <div class="answer">
+          <p>The Watch app is optional, but it's what makes pulse-confirmed wake detection and wrist haptics possible.</p>
+          <ol>
+            <li>Install WakeAlert on your watch from the <em>Watch</em> app on your iPhone, under <em>Available Apps</em>.</li>
+            <li>Open WakeAlert on the watch once, so it can pair with the phone app.</li>
+            <li>Grant Health and Motion permissions when the watch asks.</li>
+            <li>Back on the phone, open <em>Settings &rarr; Wake tracking</em> and use the test button to confirm the two are talking to each other.</li>
+          </ol>
+          <p>If the phone doesn't see the watch, make sure both devices are unlocked, on the same Wi-Fi or in Bluetooth range, and that the watch app has been opened at least once since installing.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Why does WakeAlert ask for Health access?</summary>
+        <div class="answer">
+          <p>To tell whether you actually woke up. After you silence an alarm, the Watch app samples your heart rate during your wake window &mdash; a settled, sleep-like pulse combined with no wrist motion is the signal that you've drifted off again, which is when WakeAlert rings a second time.</p>
+          <p>It only reads heart rate and resting heart rate, only around alarm time, and the data never leaves your devices. It writes nothing to the Health app. You can decline and still use WakeAlert as a normal alarm. Full details are in the <a href="/wakealert/privacy/">Privacy Policy</a>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What is the wake window, and what do the rings mean?</summary>
+        <div class="answer">
+          <p>The wake window is how long WakeAlert keeps checking on you after you silence the alarm &mdash; adjustable from 1 to 30 minutes in <em>Settings &rarr; Wake tracking</em>. During that window the watch (or the phone, if you have no watch) looks for signs you're up.</p>
+          <p>The rings on the watch face show progress through that window and how confident WakeAlert is that you're awake. Tap the info button next to Wake tracking in the app's settings for a live explanation of each ring.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Snooze, re-alarm, and wake challenges</summary>
+        <div class="answer">
+          <ul>
+            <li><strong>Snooze</strong> is how long the alarm goes quiet when you deliberately tap Snooze (1&ndash;30 minutes).</li>
+            <li><strong>Re-alarm</strong> is what happens when you tap nothing at all &mdash; the alarm sounds again after this interval, and it also paces the wake-tracking checks.</li>
+            <li><strong>Wake challenges</strong> require real movement before the alarm will stop. If you'd rather not have them, turn them off in the app's settings. Please don't attempt one if you're unsteady on your feet.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>Changing the alarm sound</summary>
+        <div class="answer">
+          <p>Open an alarm and tap the sound row to preview and choose from the 15 built-in sounds. Custom sounds and music aren't supported &mdash; iOS restricts what an app can play as an alarm from the background, and the bundled sounds are the ones we can guarantee will actually play.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Managing or cancelling your subscription</summary>
+        <div class="answer">
+          <p>Subscriptions are billed by Apple, so they're managed in your Apple Account:</p>
+          <ol>
+            <li>Open the iPhone <em>Settings</em> app.</li>
+            <li>Tap your name at the top, then <em>Subscriptions</em>.</li>
+            <li>Select <strong>WakeAlert</strong> and choose a new plan or cancel.</li>
+          </ol>
+          <p>You can also get there from inside WakeAlert: <em>Settings &rarr; Manage subscription</em>. Cancelling stops future renewals and you keep access until the current period ends. To avoid being charged for a renewal, cancel at least 24 hours before the period ends.</p>
+          <p>The Lifetime purchase is a one-time payment &mdash; there's nothing to cancel.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>I paid but the app is asking me to subscribe again</summary>
+        <div class="answer">
+          <p>Open <em>Settings</em> in WakeAlert and tap <strong>Restore purchases</strong>. That asks Apple which entitlements your Apple Account holds and re-unlocks the app.</p>
+          <p>If it still doesn't unlock, check that you're signed in with the same Apple Account you bought it with (<em>Settings &rarr; your name &rarr; Media &amp; Purchases</em>), and that you have a network connection so the check can complete. Email us if it persists &mdash; include the Apple Account email used for the purchase and we'll help you sort it out.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Refunds</summary>
+        <div class="answer">
+          <p>All purchases go through Apple, and only Apple can issue a refund. Request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> with the Apple Account you purchased with.</p>
+          <p>We'd still like to hear from you first if something isn't working &mdash; more often than not it's a fixable setting.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Is there a free version?</summary>
+        <div class="answer">
+          <p>There's no permanently free tier. The yearly plan starts with a 7-day free trial so you can put it through a full week of real mornings before you're charged, and you can cancel during the trial at no cost. Full pricing details are on the <a href="/wakealert/">WakeAlert page</a>.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What devices does WakeAlert need?</summary>
+        <div class="answer">
+          <p>An iPhone running iOS 17.6 or later. An Apple Watch running watchOS 10.6 or later is optional, and unlocks wrist haptics plus heart-rate-based wake confirmation. Without a watch, the phone handles wake tracking on its own.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How do I delete my data?</summary>
+        <div class="answer">
+          <p>Delete the app. WakeAlert stores everything &mdash; alarms, settings, wake history &mdash; on your own device, and deleting the app removes it. There's no account to close and no copy on a server, because we don't run one. See the <a href="/wakealert/privacy/">Privacy Policy</a>.</p>
+        </div>
+      </details>
+
+    </div>
+
+    <h2>Still stuck?</h2>
+    <p>Email <a href="mailto:support@timedesert.com">support@timedesert.com</a> and tell us what happened, what you expected, and what device you're on. We read everything.</p>
+  </main>
+
+  <footer>
+    <span>&copy; 2026 TimeDesert. All rights reserved.</span>
+    <span class="links">
+      <a href="/wakealert/">WakeAlert</a> &nbsp;&middot;
+      <a href="/wakealert/support/">Support</a> &nbsp;&middot;
+      <a href="/wakealert/privacy/">Privacy</a> &nbsp;&middot;
+      <a href="/wakealert/terms/">Terms</a>
+    </span>
+  </footer>
+
+</body>
+</html>
